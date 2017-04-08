@@ -8,6 +8,6 @@ import App from './components/App';
 
 // Ajax request to fetch the data from ./src/testData.json
 ReactDOM.render(
-  <App initialContests={window.initialData.contests} />,
+  <App initialData={window.initialData} />,
   document.getElementById('root')
 );
